@@ -1,4 +1,4 @@
-# Ultimate Ubuntu Mate 15.10
+# Ultimate Ubuntu Mate 16.04
 
 We start our journey with a clean install.
 
@@ -14,6 +14,11 @@ Using Sardi icons from  http://sourceforge.net/projects/sardi/
 or 
 
 using yltra flat icons from https://github.com/erikdubois/yltra-flat-icon-theme
+
+or 
+
+using Super Ultra Flat Numix Remix icons from https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
+
 
 With standard kernel 4.2.0.27
 
@@ -66,13 +71,13 @@ You have a choice.
 	- kernel 4.3.x
 	- kernel 4.4.x
 	- kernel 4.5.x
+	- kernel 4.6.x
+	- kernel 4.7.x
 
 If you want to install a kernel 3.x or a kernel 4.x, I have to take a different approach for my hardware. Therefor I have split it up in two files.
 
 	- ./update-to-the-last-stable-3.19.8-kernel-vx.sh 
-	- ./update-to-the-last-stable-4.3-kernel-vx.sh
-	- ./update-to-the-last-stable-4.4-kernel-vx.sh
-	- ./update-to-the-last-stable-4.5-kernel-vx.sh
+	- ./update-to-the-last-stable-4.6-kernel-vx.sh
  
 
 Do not forget to type "./" in front of the name.
@@ -84,9 +89,7 @@ Type in the terminal
 	
 	or 
 	
-	- ./update-to-the-last-stable-4.3-kernel-vx.sh 
-	- ./update-to-the-last-stable-4.4-kernel-vx.sh
-	- ./update-to-the-last-stable-4.5-kernel-vx.sh 
+	- ./update-to-the-last-stable-4.6-kernel-vx.sh 
 
 
 The drivers for your graphic card might well be supported already. So no need to install third party drivers.
