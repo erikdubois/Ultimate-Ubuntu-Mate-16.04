@@ -52,20 +52,54 @@
 #
 ############################################################################
 
+#  H I G H L Y    E X P E R I M E N T A L
+
+#  Better to read and do a step by step upgrade 
+
+#  http://erikdubois.be/linux/the-ultimate-linux-mint-update
+
+#  if you want to experiment on a computer where there is no data loss risk
+
+#  please be my guest
 
 
-# repo for spotify
-#sudo add-apt-repository "deb http://repository.spotify.com stable non-free" -y
-#sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D2C19886
-
-wget http://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.19.106.gb8a7150f_amd64.deb
-sudo dpkg -i spotify-client_1.0.19.106.gb8a7150f_amd64.deb
-rm spotify-client_1.0.19.106.gb8a7150f_amd64.deb
+#Grub customizer if you dual boot
+#sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
+#sudo apt-get -y update
+#sudo apt-get install -y grub-customizer
 
 
+# latest kernel check the following url
+# http://kernel.ubuntu.com/~kernel-ppa/mainline/
+# at the moment you can have kernel 4.4.0
+# depending of you hardware you can install it as wel
+# keep in mind that nvidia or ati drivers sometimes clash with the kernel
+# read the latest article on these matters at http://erikdubois.be
+ 
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-headers-4.6.3-040603-lowlatency_4.6.3-040603.201606241434_amd64.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-headers-4.6.3-040603_4.6.3-040603.201606241434_all.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-image-4.6.3-040603-generic_4.6.3-040603.201606241434_amd64.deb
 
-############################################################################
+sudo dpkg -i linux*
+
+# Nvidia drivers
+# since my graphical card nvidia gt9600 clashes with this driver 
+# I use the nouveau driver that is included in the kernel
+# sudo add-apt-repository -y ppa:xorg-edgers/ppa
+# sudo apt-get update
+# sudo apt-get install nvidia-340 -y
+# check on nvdia.com what driver you should use with your hardware
+
+
+rm linux-*
 
 #ending
+
+
+
+
+
+
+
 
 

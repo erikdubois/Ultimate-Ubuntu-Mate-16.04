@@ -53,18 +53,10 @@
 ############################################################################
 
 
-# repo for latest sublime-text
-sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
-
-# or download from source 
-# https://www.sublimetext.com/3
-
-
-# getting new info of this new repo
-sudo apt-get -y update
-
-# installing
-sudo apt-get install -y sublime-text-installer
+# Downloading and installing latest sublime text 3
+wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
+sudo dpkg -i sublime-text_build-3114_amd64.deb
+rm sublime-text_build-3114_amd64.deb
 
 
 ############################################################################
