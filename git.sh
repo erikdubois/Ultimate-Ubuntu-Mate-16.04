@@ -35,11 +35,12 @@
 # Below command will backup everything inside the project folder
 git add --all .
 
-read -p "Do you wish to install this program?"
+echo "Write the commit comment"
+read input
 
 # Committing to the local repository with a message containing the time details
 curtime=$(date)
-git commit -m "Automatic Backup @ $curtime"
+git commit -m "Automatic Backup @ $curtime for $input"
 
 # Push the local snapshot to a remote destination
 git push -u origin master
