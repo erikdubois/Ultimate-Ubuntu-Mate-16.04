@@ -40,7 +40,7 @@ read input
 
 # Committing to the local repository with a message containing the time details
 curtime=$(date)
-git commit -m "Commit comment : $input  -- Automatic Backup @ $curtime"
+git commit -m "Commit comment : $input on $curtime"
 
 # Push the local snapshot to a remote destination
 git push -u origin master
