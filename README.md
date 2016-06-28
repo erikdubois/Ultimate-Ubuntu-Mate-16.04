@@ -2,12 +2,10 @@
 
 We start our journey with a clean install.
 
+Take a look at the various scripts and run the ones you like. Change content if need be.
 
-![Screenshots](http://i.imgur.com/8TKzTOX.jpg)
 
-
-and will end in something like these.
-
+Some icons we like ...
 
 Using Sardi icons from  http://sourceforge.net/projects/sardi/
 
@@ -20,39 +18,9 @@ or
 using Super Ultra Flat Numix Remix icons from https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
 
 
-With standard kernel 4.2.0.27
+Your result can be
 
-You can colour Sardi Flexible to any colour you like. With a script you can change it in two seconds.
-Here I choose to color the icons red like the lava.
-
-![Screenshots](http://i.imgur.com/op0UtmP.jpg)
-
-![Screenshots](http://i.imgur.com/ctvvWOG.png)
-
-![Screenshots](http://i.imgur.com/D8AUkCX.jpg)
-
-![Screenshots](http://i.imgur.com/XTK94Lx.jpg)
-
-![Screenshots](http://i.imgur.com/6gPeGoc.png)
-
-![Screenshots](http://i.imgur.com/D1QRFtC.jpg)
-
-![Screenshots](http://i.imgur.com/pMfGNXd.jpg)
-
-![Screenshots](http://i.imgur.com/IEbbJ8v.jpg)
-
-![Screenshots](http://i.imgur.com/rPzryRd.jpg)
-
-![Screenshots](http://i.imgur.com/nUHBGZu.jpg)
-
-![Screenshots](http://i.imgur.com/jwou8Zy.jpg)
-
-
-
-More information about how to change the colours of the icons your self can be found on
-http://erikdubois.be
-
-<b>With a script all of your icons have changed in two seconds.</b>
+![Screenshots](http://i.imgur.com/aMrgOna.jpg)
 
 #1 Kernel and nvidia
 
@@ -63,6 +31,7 @@ The first time I suggest you follow the steps in the article.
 I have written a script to automate my installations. 
 
 You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to Extract here.
+
 Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
 
 You have a choice. 
@@ -105,14 +74,10 @@ Check on Nvidia.com which driver you should use.
 Some examples of the kernel test.
 
 
-# Kernel 4.4.1
 
-![Screenshots](http://i.imgur.com/CxGQ3ME.png)
+# kernel 4.6
 
-
-# kernel 4.5
-
-![Screenshots](http://i.imgur.com/tmQW86x.jpg)
+![Screenshots](http://i.imgur.com/wlua4w6.jpg)
 
 
 
@@ -184,9 +149,14 @@ This script is explained more in depth on my website.
 http://erikdubois.be/
 
 
-	
+#4 Aureola conky
 
-ZSH and Oh-my-sh
+Conky has changed its configuration to lua syntax.
+This will my place to collect them all.
+
+https://github.com/erikdubois/Aureola
+
+#5 ZSH and Oh-my-sh
 -----------------------
 I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script
 
@@ -212,6 +182,9 @@ Each time you start an other terminal you will get a different theme. It will su
 
 Plank
 ------------------
+
+Not sure but I believe Plank was already installed in Ubuntu Mate.
+
 Start plank from the menu. Right-click the plank and choose preferences and put in on top. I choose a transparent theme.
 But there are more themes out there if you want.
 If you want to autostart this everytime.
