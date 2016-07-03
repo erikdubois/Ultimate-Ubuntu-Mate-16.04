@@ -92,7 +92,7 @@ if ! location="$(type -p "git")" || [ -z "git" ]; then
 	echo "installing curl for this script to work"
 	echo "#################################################"
 
-  	sudo apt install git
+  	sudo apt install git -y
 fi
 
 
@@ -118,6 +118,18 @@ cp ~/.aureola/sys-info-mono-willemo/* ~/.config/conky
 cp start-conky.desktop ~/.config/autostart/start-conky.desktop
 
 killall  conky
+
+# checking if conky is installed else install it
+
+if ! location="$(type -p "conky")" || [ -z "conky" ]; then
+
+	echo "#################################################"
+	echo "installing curl for this script to work"
+	echo "#################################################"
+
+  	sudo apt install conky -y
+fi
+
 
 #starting the conky 
 conky -c ~/.config/conky/conky.conf
