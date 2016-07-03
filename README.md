@@ -1,13 +1,16 @@
 # Ultimate Ubuntu Mate 16.04
 
-We start our journey with a clean install. Do all the updates the system already asks you to do.
+We start our journey with a clean install. 
+
+Do all the updates the system already asks you to do.
 
 ![Screenshots](http://i.imgur.com/xx5yUI1.jpg)
 
 Take a look at the various scripts and run the ones you like. Change content if need be.
 
 
-Some icons we like ...
+Some icons I use in the screenshots.
+
 
 Using Sardi icons from  http://sourceforge.net/projects/sardi/
 
@@ -24,13 +27,14 @@ Your result can be
 
 ![Screenshots](http://i.imgur.com/aMrgOna.jpg)
 
+
 #1 Kernel and nvidia
 
 As described at http://erikdubois.be/ I try to get the latest of everything but on a testpc first mind you! This attitude tends to break things. You have been warned. But the best way to learn about linux.
 
 The first time I suggest you follow the steps in the article.
 
-I have written a script to automate my installations. 
+I have written several scripts to automate my installations. 
 
 You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to Extract here.
 
@@ -65,9 +69,9 @@ Type in the terminal
 
 The drivers for your graphic card might well be supported already. So no need to install third party drivers.
 Nvidia drivers will <b>NOT</b> be installed as they are very specific to your hardware. But checkout the code.
-This code can be uncommented.
 
-	# sudo add-apt-repository -y ppa:xorg-edgers/ppa
+
+	# sudo add-apt-repository -y ppa:graphics-drivers/ppa
 	# sudo apt-get update
 	# sudo apt-get install nvidia-340 -y (for example)
 
