@@ -132,7 +132,7 @@ sudo apt-get install numix-gtk-theme numix-icon-theme-circle -y
 
 #software operating system specific
 
-sudo apt install -y mate-tweak-tool compizconfig-settings-manager  
+sudo apt install -y mate-tweak compizconfig-settings-manager  
 
 
 
