@@ -1,6 +1,6 @@
 # Ultimate Ubuntu Mate 16.04
 
-We start our journey with a clean install.
+We start our journey with a clean install. Do all the updates the system already asks you to do.
 
 ![Screenshots](http://i.imgur.com/xx5yUI1.jpg)
 
