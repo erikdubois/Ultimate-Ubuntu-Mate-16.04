@@ -81,7 +81,7 @@ Some examples of the kernel test.
 
 
 
-# kernel 4.6
+<b>Kernel 4.6 installation</b>
 
 ![Screenshots](http://i.imgur.com/wlua4w6.jpg)
 
