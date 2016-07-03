@@ -33,6 +33,10 @@ You can change your mate settings best via appearance but there is also an inter
 
 ![Screenshots](http://i.imgur.com/O5kG3J7.png)
 
+The configuration of your window manager is one of the very interesting options mate offers the user.
+
+Try compiz if your system can handle it. Wobbly windows, ...
+
 
 
 #1 Kernel and nvidia
