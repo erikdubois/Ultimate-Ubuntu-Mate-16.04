@@ -27,6 +27,13 @@ Your result can be
 
 ![Screenshots](http://i.imgur.com/aMrgOna.jpg)
 
+You can change your mate settings best via appearance but there is also an interesting tool you should know.
+
+	# sudo apt install mate-tweak
+
+![Screenshots](http://i.imgur.com/O5kG3J7.png)
+
+
 
 #1 Kernel and nvidia
 
@@ -217,7 +224,7 @@ The most fun goes in changing the look of your system. Any system for that matte
 
 I have gathered a lot of themes, icons and cursors I like and bundled them here.
 
-https://github.com/erikdubois/themes-icons-pack
+https://github.com/erikdubois/themes-icons-pack.
 
 
 ![Screenshots](http://i.imgur.com/9drRjAL.jpg)
