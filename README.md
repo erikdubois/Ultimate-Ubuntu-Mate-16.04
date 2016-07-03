@@ -73,11 +73,13 @@ Nvidia drivers will <b>NOT</b> be installed as they are very specific to your ha
 
 	# sudo add-apt-repository -y ppa:graphics-drivers/ppa
 	# sudo apt-get update
-	# sudo apt-get install nvidia-340 -y (for example)
+	# sudo apt install nvidia-340 -y (for example)
 
 Check on Nvidia.com which driver you should use.
 
-Some examples of the kernel test.
+An example of the kernel with screenfetch. You can use neofetch as well.
+	
+	# sudo apt install screenfetch neofetch
 
 
 
@@ -132,7 +134,7 @@ Install conky-manager that will make life easy.
 
 	sudo add-apt-repository -y ppa:teejee2008/ppa
 	sudo apt-get update
-	sudo apt-get install conky-manager
+	sudo apt installconky-manager
 
 Start up conky-manager and choose the conky to your liking.
 
@@ -230,7 +232,7 @@ https://github.com/erikdubois/themes-icons-pack
 
 And a specific script for samba (sharing of maps on your home network) if you need it. This script is NOT necessary. Linux Mint shares folders just fine. If you need a program to have an oversight of all the shared maps. This is the one. 
 
-	sudo apt-get install system-config-samba
+	sudo apt installsystem-config-samba
 
 	or
 
