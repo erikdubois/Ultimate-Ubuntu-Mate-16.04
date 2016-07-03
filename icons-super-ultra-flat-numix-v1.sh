@@ -73,6 +73,10 @@
 
 # Y L T R A  F L A T  I C O N S
 
+echo "Installing git"
+
+sudo apt install git
+
 git clone https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix /tmp/Super-Ultra-Flat-Numix-Remix
 cp -r /tmp/Super-Ultra-Flat-Numix-Remix/* ~/.icons/
 rm -rf /tmp/Super-Ultra-Flat-Numix-Remix
