@@ -35,10 +35,13 @@
 # Below command will backup everything inside the project folder
 git add --all .
 
-echo "Write the commit comment"
+echo "####################################"
+echo "Write your commit comment!"
+echo "####################################"
+
 read input
 
-# Committing to the local repository with a message containing the time details
+# Committing to the local repository with a message containing the time details and commit text
 curtime=$(date)
 git commit -m "Commit comment : $input on $curtime"
 
