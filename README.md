@@ -2,6 +2,8 @@
 
 We start our journey with a clean install.
 
+![Screenshots](http://i.imgur.com/xx5yUI1.jpg)
+
 Take a look at the various scripts and run the ones you like. Change content if need be.
 
 
