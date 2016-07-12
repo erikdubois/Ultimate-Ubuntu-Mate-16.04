@@ -22,9 +22,9 @@
 #
 ##################################################################################################################
 #
-# Current project : Ultimate-Ubuntu-Mate-16.04
+# Current project : Ultimate-Linux-Mint-18
 #
-# Source 	: 	https://github.com/erikdubois/Ultimate-Ubuntu-Mate-16.04
+# Source 	: 	https://github.com/erikdubois/Ultimate-Linux-Mint-18
 #
 ##################################################################################################################
 # Written to be used on 64 bits computers
@@ -70,18 +70,15 @@
 #
 ##################################################################################################################
 
-#setting up git
-#https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
-git init
-git config --global user.name "Erik Dubois"
-git config --global user.email "erik.dubois@gmail.com"
-sudo git config --system core.editor nano
-git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=3600'
-git config --global push.default simple
+# Y L T R A  F L A T  I C O N S
+
+git clone https://github.com/erikdubois/yltra-flat-icon-theme /tmp/Yltra-Flat
+cp -r /tmp/Yltra-Flat/* ~/.icons/
+rm -rf /tmp/Yltra-Flat
 
 
-#git remote add origin https://github.com/erikdubois/Ultimate-Ubuntu-Mate-16.04.git
 
-echo " ALL  D O N E !"
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"

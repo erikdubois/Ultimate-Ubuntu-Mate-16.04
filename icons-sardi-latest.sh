@@ -22,9 +22,9 @@
 #
 ##################################################################################################################
 #
-# Current project : Ultimate-Ubuntu-Mate-16.04
+# Current project : Ultimate-Linux-Mint-18
 #
-# Source 	: 	https://github.com/erikdubois/Ultimate-Ubuntu-Mate-16.04
+# Source 	: 	https://github.com/erikdubois/Ultimate-Linux-Mint-18
 #
 ##################################################################################################################
 # Written to be used on 64 bits computers
@@ -70,18 +70,32 @@
 #
 ##################################################################################################################
 
-#setting up git
-#https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
-git init
-git config --global user.name "Erik Dubois"
-git config --global user.email "erik.dubois@gmail.com"
-sudo git config --system core.editor nano
-git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=3600'
-git config --global push.default simple
+########################################
+########        I C O N S      #########
+########################################
 
 
-#git remote add origin https://github.com/erikdubois/Ultimate-Ubuntu-Mate-16.04.git
 
-echo " ALL  D O N E !"
+
+# S A R D I
+# from sourceforge 
+
+version="6.1-2"
+
+wget http://downloads.sourceforge.net/project/sardi/sardi-icons-$version.tar.gz -P /tmp/sardi
+cd /tmp/sardi
+tar -zxvf /tmp/sardi/sardi-icons-$version.tar.gz
+rm /tmp/sardi/sardi-icons-$version.tar.gz
+
+# if there is no hidden folder conky then make one
+[ -d $HOME"/./icons" ] || mkdir -p $HOME"/.icons"
+
+cp -r /tmp/sardi/* ~/.icons/
+rm -rf /tmp/sardi
+
+
+
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"

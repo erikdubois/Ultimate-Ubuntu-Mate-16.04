@@ -22,9 +22,9 @@
 #
 ##################################################################################################################
 #
-# Current project : Ultimate-Ubuntu-Mate-16.04
+# Current project : Ultimate-Linux-Mint-18
 #
-# Source 	: 	https://github.com/erikdubois/Ultimate-Ubuntu-Mate-16.04
+# Source 	: 	https://github.com/erikdubois/Ultimate-Linux-Mint-18
 #
 ##################################################################################################################
 # Written to be used on 64 bits computers
@@ -70,18 +70,36 @@
 #
 ##################################################################################################################
 
-#setting up git
-#https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
-git init
-git config --global user.name "Erik Dubois"
-git config --global user.email "erik.dubois@gmail.com"
-sudo git config --system core.editor nano
-git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=3600'
-git config --global push.default simple
+# if there is already a folder, delete or else do nothing
+
+echo "The script will install itself in the /tmp/hardcode-fixer folder"
+echo "It will run from there"
+echo "Upon next boot the tmp folder will be empty again"
+echo "#################################################"
 
 
-#git remote add origin https://github.com/erikdubois/Ultimate-Ubuntu-Mate-16.04.git
+[ -d /tmp/hardcode-fixer ] && rm -rf "/tmp/hardcode-fixer" || echo ""
 
-echo " ALL  D O N E !"
+git clone https://github.com/Foggalong/hardcode-fixer /tmp/hardcode-fixer
+
+if ! foobar_loc="$(type -p "curl")" || [ -z "curl" ]; then
+
+	echo "#################################################"
+	echo "installing curl for this script to work"
+	echo "#################################################"
+
+  	sudo apt install curl
+fi
+
+echo "#################################################"
+echo "Checking and changing all hardcoded icons"
+echo "#################################################"
+
+sudo /tmp/hardcode-fixer/fix.sh
+
+echo
+echo
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"
