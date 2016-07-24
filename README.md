@@ -177,6 +177,8 @@ https://github.com/erikdubois/Aureola
 
 ![Screenshots](http://i.imgur.com/xQug51R.jpg)
 
+![Screenshots](http://i.imgur.com/1R0CzAQ.jpg)
+
 #5 ZSH and Oh-my-sh
 -----------------------
 I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script
