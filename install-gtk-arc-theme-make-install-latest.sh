@@ -71,62 +71,18 @@
 ##################################################################################################################
 
 
-#  H I G H L Y    E X P E R I M E N T A L
+#https://github.com/horst3180/arc-theme
 
-#  Better to read and do a step by step upgrade 
+#rm -rf arc-theme
 
-#  http://erikdubois.be/linux/the-ultimate-linux-mint-update
+sudo apt-get install build-essential autoconf libgtk-3.0 libgtk-3-dev -y
+git clone https://github.com/horst3180/arc-theme --depth 1 && cd arc-theme
+./autogen.sh --prefix=/usr
+sudo make install
 
-#  if you want to experiment on a computer where there is no data loss risk
-
-#  please be my guest
-
-echo "Let us check if your computer is up-to-date"
-
-
-#sudo apt-get update -y
-#sudo apt-get upgrade -y
-#sudo apt-get autoclean -y
-#sudo apt-get autoremove -y
-
-#Grub customizer if you dual boot
-#sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
-#sudo apt-get -y update
-#sudo apt-get install -y grub-customizer
+# sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
 
 
-# latest kernel check the following url
-# http://kernel.ubuntu.com/~kernel-ppa/mainline/
-# at the moment you can have kernel 4.4.0
-# depending of you hardware you can install it as wel
-# keep in mind that nvidia or ati drivers sometimes clash with the kernel
-# read the latest article on these matters at http://erikdubois.be
- 
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-headers-4.6.3-040603-generic_4.6.3-040603.201606241434_amd64.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-headers-4.6.3-040603_4.6.3-040603.201606241434_all.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-image-4.6.3-040603-generic_4.6.3-040603.201606241434_amd64.deb
-
-sudo dpkg -i linux*
-
-rm linux-*
-
-echo "Kernel is installed"
-echo "Download files have been deleted"
-
-#ending
-#mkdir $HOME/Upload
-#sudo apt-get -y update
-#sudo apt-get -f -y install
-#sudo apt-get -y upgrade
-
-#sudo apt-get -y autoremove
-#sudo apt-get -y autoclean
-
-
-
-
-
-
-
-
-
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"
