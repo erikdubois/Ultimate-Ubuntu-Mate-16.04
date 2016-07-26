@@ -57,7 +57,7 @@ sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
 # repo for variety wallpaper
 sudo add-apt-repository ppa:peterlevi/ppa -y
 # repo for numix themes
-sudo add-apt-repository ppa:numix/ppa -y
+#sudo add-apt-repository ppa:numix/ppa -y
 
 
 ############################################################################
@@ -125,8 +125,8 @@ echo "software from extra repositories"
 sudo apt install -y grub-customizer variety   
 
 #themes
-echo "themes and icons"
-sudo apt install  -y numix-gtk-theme numix-icon-theme-circle  
+#echo "themes and icons"
+#sudo apt install  -y numix-gtk-theme numix-icon-theme-circle  
 
 ############################################################################
 
