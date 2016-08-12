@@ -243,55 +243,6 @@ http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-au
 
 
 
-Themes and Icons
------------------
-
-The most fun goes in changing the look of your system. Any system for that matter.
-
-I have gathered a lot of themes, icons and cursors I like and bundled them here.
-
-https://github.com/erikdubois/themes-icons-pack.
-
-
-![Screenshots](http://i.imgur.com/9drRjAL.jpg)
-
-
-
-![Screenshots](http://i.imgur.com/FacEzmD.jpg)
-
-
-
-
-
-# Samba or sharing folder over the network
-
-And a specific script for samba (sharing of maps on your home network) if you need it. This script is NOT necessary. Linux Mint shares folders just fine. If you need a program to have an oversight of all the shared maps. This is the one. 
-
-	sudo apt installsystem-config-samba
-
-	or
-
-	- ./install-samba-vx.sh
-
-
-# Shutter
-
-Shutter is a program to make screenshots to post on websites.
-There is also a very handy export function to different image hosting sites like imgur.com
-
-In the program keyboard you can add a custom shortcut to take a picture like 
-
-printscreen or prtsc no many laptops
-This should be the code to take a picture that will be named like this : 
-
-![Screenshots](http://i.imgur.com/Oe7EHSn.png)
-
-
-	shutter -f -e -o '~/Pictures/screenshot_%d_%m_%Y_%T.jpg'
-
-
-
-
 #What can you do if the script does not execute?
 
 Since I sometimes forget to make the script executable, I include here what you can do to solve that.
