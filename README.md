@@ -27,6 +27,10 @@ Your result can be
 
 ![Screenshots](http://i.imgur.com/aMrgOna.jpg)
 
+![Screenshots](http://i.imgur.com/Pxao7Ir.jpg)
+
+![Screenshots](http://i.imgur.com/OgzjAm4.jpg)
+
 You can change your mate settings best via appearance but there is also an interesting tool you should know.
 
 	# sudo apt install mate-tweak
