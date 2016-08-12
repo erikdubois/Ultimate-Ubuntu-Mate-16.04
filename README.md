@@ -38,6 +38,21 @@ The configuration of your window manager is one of the very interesting options 
 Try compiz if your system can handle it. Wobbly windows, ...
 
 
+# First steps
+
+Getting these scripts on my just installed system.
+
+	sudo apt-get install git
+	git clone https://github.com/erikdubois/Ultimate-Ubuntu-Mate-16.04
+
+Go inside the folder and start to install all you need or want.
+
+
+Do the regular updates first. Start the software-updater.
+
+
+![Screenshots](http://i.imgur.com/9sDiy2r.jpg)
+
 
 #1 Kernel and nvidia
 
