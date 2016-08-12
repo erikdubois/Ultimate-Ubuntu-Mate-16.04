@@ -16,10 +16,6 @@ Using Sardi icons from  http://sourceforge.net/projects/sardi/
 
 or 
 
-using yltra flat icons from https://github.com/erikdubois/yltra-flat-icon-theme
-
-or 
-
 using Super Ultra Flat Numix Remix icons from https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
 
 
@@ -62,7 +58,7 @@ Do the regular updates first. Start the software-updater.
 
 As described at http://erikdubois.be/ I try to get the latest of everything but on a testpc first mind you! This attitude tends to break things. You have been warned. But the best way to learn about linux.
 
-The first time I suggest you follow the steps in the article.
+The first time I suggest you follow the steps in this article.
 
 I have written several scripts to automate my installations. 
 
@@ -113,9 +109,10 @@ An example of the kernel with screenfetch. You can use neofetch as well.
 
 
 
-<b>Kernel 4.6 installation</b>
+<b>Kernel 4.7 installation</b>
 
-![Screenshots](http://i.imgur.com/wlua4w6.jpg)
+
+![Screenshots](http://i.imgur.com/JoQNN0m.png)
 
 
 
